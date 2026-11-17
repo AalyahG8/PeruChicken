@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--Name: Aalyah Gallegos. About Page. Edit: 11/10/2026-->
+<!--Name: Aalyah Gallegos. About Page. Edit: 11/17/2026-->
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -35,11 +35,11 @@
 				<ul class="navbar-nav ml-auto align-items-center">
 
 					<li class="nav-item">
-						<a class="nav-link-color" href="index.html">HOME</a>
+						<a class="nav-link" href="index.html">HOME</a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="about.html">ABOUT</a>
+						<a class="nav-link-color" href="about.html">ABOUT</a>
 					</li>
 
 					<li class="nav-item">
@@ -56,7 +56,7 @@
 
 					<div class="dropdown">
 						<li class="nav-item">
-							<a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="contact.html">CONTACT</a>
+							<a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MORE</a>
 								<div class="dropdown-menu" aria-labelledby="dropdown">
 									<a class="nav-link" href="contact.html">CONTACT</a>
 									<a class="nav-link" href="location.html">LOCATIONS</a>
@@ -72,63 +72,94 @@
 		<div class="second-nav">
 			<ul class="second">
 				<!--Work on image alignment and botton-->
-				<img src="images/CarSide_Icon.png" alt="Car" style="width: 30px; height: 40px; padding-top: 10px;">
 				<li class="float:right">
-					<a class="white-btn" href="popup.html">DELIVERY</a>
+					<a class="white-btn" href="#">
+						<img class="white-btn-image" src="images/CarSide_Icon.png" alt="Car">
+						DELIVERY
+					</a>
 				</li>
 			</ul>
 		</div>
 
 	<!--Utility Navigation-->
 
-	<br>
-
-	<!--Hero-->
-	<div class="hero-image">
-		<img src="images/family.jpg">
-		<div class="hero-text">
-			<h1>MADE WITH LOVE, CARE, & FAMILY</h1>
-		</div>
+	<div class="container container-fluid">
+			<div class="row">
+				<div class="col-sm">
+					<img src="images/family.jpg" alt="Owner family photo" style="width: 800px; padding-left: 10px; padding-right: 10px; float: inline-start;" class="responsive">
+				</div>
+				<div class="col-sm">
+					<h1 class="about-right" style="font-size: 70px; font-weight: bold;">
+						MADE WITH LOVE, CARE, & FAMILY
+					</h1>
+				</div>
+			</div>
 	</div>
 
+	<div class="w3-bar w3">
+		<div class="w3-bar-item w3-hover-white">ㅤ</div>
+	</div>
+
+	<br>
+
 	<!--Working Body Process-->
-	<h2>Our Story</h2>
-	<p>The year was 2013, when Peru Chicken oficially opened. Proud owners Olga & Jose Nicolas, worked in Las Vegas business world since 2006 with a hair salon they opened. They worked hard and save enough money to officially open the first location of Peru Chicken. Fast forward to 2026, they officially opened Peru Chicken's 4th locations, expanding the franchise in Las Vegas.</p>
-	<h2>Growing Family Owned Business</h2>
-	<p>Peru Chicken's is a family owned restaurant that is growing every year to create the best experience for our costumers. Each restaurant locations are all purely family-owned and have a sense of familiarity when you walk in. We care about our brand just like we care about our costumers.</p>
-	<h2>Our Values</h2>
-	<p>Our highest value and priority is our food. We take each and every one of our dishes seriously. Throughout the years, we carefully curated our recipes, ensuring delicious perfection. We also value fresh ingredients, making sure every customer has fresh food made with family, love, and care.</p>
+	<h2 class="head-about">
+		Our Story
+	</h2>
+
+	<p class="body-about">The year was 2013, when Peru Chicken officially opened. Proud owners Olga & Jose Nicolas, worked in the Las Vegas business world since 2006, with a hair salon they opened. They worked hard and save enough money to officially open the first location of Peru Chicken. Fast forward to 2026, they officially opened Peru Chicken's 4th locations, expanding the franchise in Las Vegas.</p>
+
+	<h2 class="head-about">
+		Growing Family Owned Business
+	</h2>
+
+	<p class="body-about">Peru Chicken's is a family owned restaurant that is growing every year to create the best experience for our costumers. Each restaurant locations are all purely family-owned and have a sense of familiarity when you walk in. We care about our brand just like we care about our costumers.</p>
+
+	<h2 class="head-about">
+		Our Values
+	</h2>
+
+	<p class="body-about">Our highest value and priority is our food. We take each and every one of our dishes seriously. Throughout the years, we carefully curated our recipes, ensuring delicious perfection. We also value fresh ingredients, making sure every customer has fresh food made with family, love, and care.</p>
+
 </body>
 
 <br><br>
 
 	<footer>
 		<br>
-		<div class="side">
-			<div class="logo">
-				<a class="navbar-brand" href="index.html" style="position: relative; left: 70px; top: 10px;">
-					<img src="images/PERUCHICKENLOGO_2017.jpg" alt="Logo" style="width: 250px;">
-				</a>
+		<div class="footer row">
+			<div class="col-sm">
+				<div class="logo">
+					<a class="navbar-brand" href="index.html" style="position: relative; left: 70px; top: 10px;">
+						<img src="images/PERUCHICKENLOGO_2017.jpg" alt="Logo" style="width: 250px;">
+					</a>
+				</div>
 			</div>
 
-			<div class="contact">
-				<h4 class="footer-head">
-					CONTACT
-				</h4>
-				<p class="footer-info">Peru Chicken Gold: (702) 915-7330</p>
-				<p class="footer-info">Peru Chicken: (702) 732-0079</p>
-				<p class="footer-info">Peru Chicken #2: (702) 982-0073</p>
-				<p class="footer-info">Peru Chicken Restaurant: (702) 629-2077</p>
-			</div>
+			<div class="col-sm">
+				<div class="contact">
+					<h4 class="footer-head">
+						CONTACT
+					</h4>
 
-			<div class="locations">
-				<h4 class="footer-head">
-					LOCATIONS
-				</h4>
-				<p class="footer-info">4825 S Rainbow Blvd #205, Las Vegas, NV 89103</p>
-				<p class="footer-info">2055 E Tropicana Ave, Las Vegas, NV 89119</p>
-				<p class="footer-info">3886 W Sahara Ave, Las Vegas, NV 89102</p>
-				<p class="footer-info">2319 S Eastern Ave, Las Vegas, NV 89104</p>
+					<p class="footer-info">Peru Chicken Gold: (702) 915-7330</p>
+					<p class="footer-info">Peru Chicken: (702) 732-0079</p>
+					<p class="footer-info">Peru Chicken #2: (702) 982-0073</p>
+					<p class="footer-info">Peru Chicken Restaurant: (702) 629-2077</p>
+				</div>
+			</div>
+			
+			<div class="col-sm">
+				<div class="locations">
+					<h4 class="footer-head">
+						LOCATIONS
+					</h4>
+
+					<p class="footer-info">4825 S Rainbow Blvd #205, Las Vegas, NV 89103</p>
+					<p class="footer-info">2055 E Tropicana Ave, Las Vegas, NV 89119</p>
+					<p class="footer-info">3886 W Sahara Ave, Las Vegas, NV 89102</p>
+					<p class="footer-info">2319 S Eastern Ave, Las Vegas, NV 89104</p>
+				</div>
 			</div>
 		</div>
 

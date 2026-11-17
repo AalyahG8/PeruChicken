@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--Name: Aalyah Gallegos. Index/Home Page. Edit: 11/10/2026-->
+<!--Name: Aalyah Gallegos. Index/Home Page. Edit: 11/17/2026-->
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -56,7 +56,7 @@
 
 					<div class="dropdown">
 						<li class="nav-item">
-							<a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="contact.html">CONTACT</a>
+							<a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MORE</a>
 								<div class="dropdown-menu" aria-labelledby="dropdown">
 									<a class="nav-link" href="contact.html">CONTACT</a>
 									<a class="nav-link" href="location.html">LOCATIONS</a>
@@ -68,13 +68,16 @@
 			</div>
 			
 	</nav>
+
 	<!--DELIVERYNAVBAR-->
 		<div class="second-nav">
 			<ul class="second">
 				<!--Work on image alignment and botton-->
-				<img src="images/CarSide_Icon.png" alt="Car" style="width: 30px; height: 40px; padding-top: 10px;">
 				<li class="float:right">
-					<a class="white-btn" href="#">DELIVERY</a>
+					<a class="white-btn" href="#">
+						<img class="white-btn-image" src="images/CarSide_Icon.png" alt="Car">
+						DELIVERY
+					</a>
 				</li>
 			</ul>
 		</div>
@@ -118,17 +121,19 @@
 		</div>
 
 		<div class="container container-fluid">
-			<div class="left-half">
-				<img src="images/Food 4.JPG" alt="Index Main Photo" style="width: 600px;">
-			</div>
-			<div class="right-half">
-				<h3 class="left" style="font-size: 54px; font-weight: bold;">
-					Authentic and Fresh
-				</h3>
-				<p class="left">
-					We value your experience and your taste buds. We take our dishes seriously, especially with our signature rotisserie chicken and seafood, Peruvian style. Fresh ingredients for you to enjoy with a fresh experience.
-				</p>
-				<button type="button" class="btn-about btn-lg">LEARN MORE ABOUT US</button>
+			<div class="row">
+				<div class="col-sm">
+					<img src="images/Food 4.JPG" alt="Index Main Photo" style="width: 600px; padding:10px;" class="responsive">
+				</div>
+				<div class="col-sm">
+					<h3 class="left" style="font-size: 54px; font-weight: bold;">
+						Authentic and Fresh
+					</h3>
+					<p class="left">
+						We value your experience and your taste buds. We take our dishes seriously, especially with our signature rotisserie chicken and seafood, Peruvian style. Fresh ingredients for you to enjoy with a fresh experience.
+					</p>
+					<button type="button ml-auto" class="btn-bottom">LEARN MORE ABOUT US</button>
+				</div>
 			</div>
 		</div>
 
@@ -138,42 +143,50 @@
 
 	<footer>
 		<br>
-		<div class="side">
-			<div class="logo">
-				<a class="navbar-brand" href="index.html" style="position: relative; left: 70px; top: 10px;">
-					<img src="images/PERUCHICKENLOGO_2017.jpg" alt="Logo" style="width: 250px;">
-				</a>
+		<div class="footer row">
+			<div class="col-sm">
+				<div class="logo">
+					<a class="navbar-brand" href="index.html" style="position: relative; left: 70px; top: 10px;">
+						<img src="images/PERUCHICKENLOGO_2017.jpg" alt="Logo" style="width: 250px;">
+					</a>
+				</div>
 			</div>
 
-			<div class="contact">
-				<h4 class="footer-head">
-					CONTACT
-				</h4>
-				<p class="footer-info">Peru Chicken Gold: (702) 915-7330</p>
-				<p class="footer-info">Peru Chicken: (702) 732-0079</p>
-				<p class="footer-info">Peru Chicken #2: (702) 982-0073</p>
-				<p class="footer-info">Peru Chicken Restaurant: (702) 629-2077</p>
+			<div class="col-sm">
+				<div class="contact">
+					<h4 class="footer-head">
+						CONTACT
+					</h4>
+					
+					<p class="footer-info">Peru Chicken Gold: (702) 915-7330</p>
+					<p class="footer-info">Peru Chicken: (702) 732-0079</p>
+					<p class="footer-info">Peru Chicken #2: (702) 982-0073</p>
+					<p class="footer-info">Peru Chicken Restaurant: (702) 629-2077</p>
+				</div>
 			</div>
+			
+			<div class="col-sm">
+				<div class="locations">
+					<h4 class="footer-head">
+						LOCATIONS
+					</h4>
 
-			<div class="locations">
-				<h4 class="footer-head">
-					LOCATIONS
-				</h4>
-				<p class="footer-info">4825 S Rainbow Blvd #205, Las Vegas, NV 89103</p>
-				<p class="footer-info">2055 E Tropicana Ave, Las Vegas, NV 89119</p>
-				<p class="footer-info">3886 W Sahara Ave, Las Vegas, NV 89102</p>
-				<p class="footer-info">2319 S Eastern Ave, Las Vegas, NV 89104</p>
+					<p class="footer-info">4825 S Rainbow Blvd #205, Las Vegas, NV 89103</p>
+					<p class="footer-info">2055 E Tropicana Ave, Las Vegas, NV 89119</p>
+					<p class="footer-info">3886 W Sahara Ave, Las Vegas, NV 89102</p>
+					<p class="footer-info">2319 S Eastern Ave, Las Vegas, NV 89104</p>
+				</div>
 			</div>
 		</div>
 
 		<hr class="thick" color="white" width="90%">
 
 		<div class="social-center">
-			<a class="social-image" href="https://www.yelp.com/biz/peru-chicken-gold-las-vegas?utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)">
+			<a class="social-image" href="#">
 			<img src="images/Yelp_Icon.png" alt="Yelp Logo" style="width: 50px;">
 			</a>
 
-			<a class="social-image" href="https://www.doordash.com/store/peru-chicken-gold-las-vegas-44602695/109138947/?srsltid=AU7gw4WSt3zrIE-yDaA6wmROiVdC3oEUC8nn2pauBSXOxbGXbJsliDfn">
+			<a class="social-image" href="#">
 			<img src="images/Doordash_Icon.png" alt="DoorDash Logo" style="width: 50px;">
 			</a>
 

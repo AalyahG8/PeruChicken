@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--Name: Aalyah Gallegos. Event Page. Edit: 11/10/2026-->
+<!--Name: Aalyah Gallegos. Event Page. Edit: 11/17/2026-->
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -35,7 +35,7 @@
 				<ul class="navbar-nav ml-auto align-items-center">
 
 					<li class="nav-item">
-						<a class="nav-link-color" href="index.html">HOME</a>
+						<a class="nav-link" href="index.html">HOME</a>
 					</li>
 
 					<li class="nav-item">
@@ -47,7 +47,7 @@
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="event.html">EVENTS</a>
+						<a class="nav-link-color" href="event.html">EVENTS</a>
 					</li>
 
 					<li class="nav-item">
@@ -56,7 +56,7 @@
 
 					<div class="dropdown">
 						<li class="nav-item">
-							<a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="contact.html">CONTACT</a>
+							<a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MORE</a>
 								<div class="dropdown-menu" aria-labelledby="dropdown">
 									<a class="nav-link" href="contact.html">CONTACT</a>
 									<a class="nav-link" href="location.html">LOCATIONS</a>
@@ -72,9 +72,11 @@
 		<div class="second-nav">
 			<ul class="second">
 				<!--Work on image alignment and botton-->
-				<img src="images/CarSide_Icon.png" alt="Car" style="width: 30px; height: 40px; padding-top: 10px;">
 				<li class="float:right">
-					<a class="white-btn" href="popup.html">DELIVERY</a>
+					<a class="white-btn" href="#">
+						<img class="white-btn-image" src="images/CarSide_Icon.png" alt="Car">
+						DELIVERY
+					</a>
 				</li>
 			</ul>
 		</div>
@@ -82,14 +84,28 @@
 		<!--Utility Navigation-->
 		
 		<!--Check if there's a new event with Peru Chicken to put in current events area.-->
-		<h1>Past Events</h1>
-		<img src="images/events.JPG" alt="old event">
-		<h2>Noche Latina</h2>
-		<h3>Live Music, Iced Cold Beers, and Performers Berni Nash and Adrián.</h3>
-		<p>October, Saturday 3, 2026 at 8pm.</p>
-		<p>Located at Peru Chicken Restaurant, 2319 S Eastern Ave, Las Vegas, NV 89104.</p>
-		<p>For more information call, (702) 629-2077.</p>
-		<p>Come by and have fun!</p>
+
+		<br>
+		<h1 class="head-event" style="font-size: 70px; font-weight: bold;">PAST EVENT</h1>
+
+		<br>
+
+		<div class="row">
+			<div class="col-sm">
+				<img src="images/events.JPG" alt="old event" style="width: 700px;" class="responsive">
+			</div>
+
+			<div class="col-sm">
+				<h2 class="headtwo-event">NOCHE LATINA</h2>
+
+				<h3 class="header-event">Live Music, Iced Cold Beers, and Performers Berni Nash and Adrián.</h3>
+
+				<p class="body-event">October, Saturday 3, 2026 at 8pm.</p>
+				<p class="body-event">Located at Peru Chicken Restaurant, 2319 S Eastern Ave, Las Vegas, NV 89104.</p>
+				<p class="body-event">For more information call, (702) 629-2077.</p>
+				<p class="body-event">Come by and have fun!</p>
+			</div>
+		</div>
 
 	</body>
 
@@ -97,31 +113,39 @@
 
 	<footer>
 		<br>
-		<div class="side">
-			<div class="logo">
-				<a class="navbar-brand" href="index.html" style="position: relative; left: 70px; top: 10px;">
-					<img src="images/PERUCHICKENLOGO_2017.jpg" alt="Logo" style="width: 250px;">
-				</a>
+		<div class="footer row">
+			<div class="col-sm">
+				<div class="logo">
+					<a class="navbar-brand" href="index.html" style="position: relative; left: 70px; top: 10px;">
+						<img src="images/PERUCHICKENLOGO_2017.jpg" alt="Logo" style="width: 250px;">
+					</a>
+				</div>
 			</div>
 
-			<div class="contact">
-				<h4 class="footer-head">
-					CONTACT
-				</h4>
-				<p class="footer-info">Peru Chicken Gold: (702) 915-7330</p>
-				<p class="footer-info">Peru Chicken: (702) 732-0079</p>
-				<p class="footer-info">Peru Chicken #2: (702) 982-0073</p>
-				<p class="footer-info">Peru Chicken Restaurant: (702) 629-2077</p>
+			<div class="col-sm">
+				<div class="contact">
+					<h4 class="footer-head">
+						CONTACT
+					</h4>
+					
+					<p class="footer-info">Peru Chicken Gold: (702) 915-7330</p>
+					<p class="footer-info">Peru Chicken: (702) 732-0079</p>
+					<p class="footer-info">Peru Chicken #2: (702) 982-0073</p>
+					<p class="footer-info">Peru Chicken Restaurant: (702) 629-2077</p>
+				</div>
 			</div>
+			
+			<div class="col-sm">
+				<div class="locations">
+					<h4 class="footer-head">
+						LOCATIONS
+					</h4>
 
-			<div class="locations">
-				<h4 class="footer-head">
-					LOCATIONS
-				</h4>
-				<p class="footer-info">4825 S Rainbow Blvd #205, Las Vegas, NV 89103</p>
-				<p class="footer-info">2055 E Tropicana Ave, Las Vegas, NV 89119</p>
-				<p class="footer-info">3886 W Sahara Ave, Las Vegas, NV 89102</p>
-				<p class="footer-info">2319 S Eastern Ave, Las Vegas, NV 89104</p>
+					<p class="footer-info">4825 S Rainbow Blvd #205, Las Vegas, NV 89103</p>
+					<p class="footer-info">2055 E Tropicana Ave, Las Vegas, NV 89119</p>
+					<p class="footer-info">3886 W Sahara Ave, Las Vegas, NV 89102</p>
+					<p class="footer-info">2319 S Eastern Ave, Las Vegas, NV 89104</p>
+				</div>
 			</div>
 		</div>
 
